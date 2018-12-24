@@ -7,7 +7,7 @@ public class Main {
         ShapeFactory shapeFactory = new ShapeFactory();
 
         // Get different shapes using get shape
-        
+
         Shape circle = shapeFactory.getShape("circle");
         circle.draw();
 
